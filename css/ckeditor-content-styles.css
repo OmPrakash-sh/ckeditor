@@ -1,0 +1,53 @@
+.editor-form{width: 80%; margin: auto;position: relative;}
+.dropbtn {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+/* ck editor content styles */
+.line-container {
+    display: block;
+    z-index: 9999999;
+}
+
+.speach-line {
+    display: block;
+}
+.speach-line .action-line, .speach-line .line-type1, .speach-line .line-type2{display: inline-block;}
+.speach-line .action-line {background-color: lightblue;padding: 2px;}
+.speach-line .action-line i{font-style: normal;font-weight: bold;}
+.speach-line .action-line i.action-item:hover{cursor: pointer;}
+.speach-line .line-type1 {background-color: orange;}
+.speach-line .line-type2 {background-color: yellow;}

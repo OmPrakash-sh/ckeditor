@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Transcript Editor</title>
+    <link rel="stylesheet" type="text/css"
+        href="./css/ckeditor-content-styles.css" />
+    <script src="https://cdn.ckeditor.com/4.15.0/full/ckeditor.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form class="editor-form">
+        <textarea name="ckEditor" id="ckEditor" rows="40" cols="80">
+            <div class="line-container">
+                <div class="speach-line">
+                    <span class="action-line">
+                        <i class="action-item">Unknown</i>:<span>Some Speach</span>
+                    </span>
+                </div>
+                <div class="speach-line">
+                    <span class="line-type1">*Line Type1*</span>
+                </div>
+                <div class="speach-line">
+                    <span class="line-type2">[Line Type2]</span>
+                </div>
+                <div class="speach-line">
+                    <span class="action-line">
+                        <i class="action-item">Unknown</i>:<span>More Speach</span>
+                    </span>
+                </div>
+                <div class="speach-line">
+                    <span class="action-line">
+                        <i class="action-item">Unknown</i>:<span>Another Speaking Line</span>
+                    </span>
+                </div>
+                <div class="speach-line">
+                    <span class="line-type2">[Line Type2]</span>
+                </div>
+            </div>
+        </textarea>
+        <div id="dpdn" class="dropdown">
+            <div id="dpdnContent" class="dropdown-content">
+                <a href="#fred">Fred</a>
+                <a href="#sue">Sue</a>
+                <a href="#joe">Joe</a>
+                <a href="#cassie">Cassie</a>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
